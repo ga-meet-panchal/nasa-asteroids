@@ -21,7 +21,6 @@ class DisplayById extends Component {
       is_potentially_hazardous_asteroid
     } = this.props.asteroidDetails;
 
-    console.log(process.env);
     return (
       <div className="center">
         <p>
